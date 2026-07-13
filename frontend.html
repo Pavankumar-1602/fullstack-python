@@ -1,22 +1,107 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+ <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <title>
+             my website
+        </title>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+        <link rel="stylesheet" href="frontend.css">
+        <h1> hello</h1>
+        <p>
+            learing full stack
+        </p>
+        <div>
+            website header
+        </div>
+        <div>
+            content
+        </div>
     </body>
 </html>
+
+ <header>
+    <h1> my website</h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">about</a>
+    <a href="#">phone no</a>
+    <a href="#">address</a>
+</nav>
+<section>
+    <h2>Corse</h2>
+</section>
+<footer>
+    Copyright 2026
+</footer>
+
+<header></header>
+#top area
+<nav></nav>
+menu link
+<section></section>
+page section
+<article></article>
+independent content
+<aside></aside>
+side content
+<footer></footer>
+
+
+
+<form>
+     <label>Name</label>
+     <input type="text" placeholder="Enter name ">
+     <label>Email</label>
+     <input type ="email"placeholder="Enter email"
+     <label>password</label>
+     <input type="password">
+     <label>Date</label>
+     <input type="data"
+     <label>file upload</label>
+     <input type="file">
+     <button>submit</button>
+
+</form> 
+ 
+ <h2>flexbox</h2>
+<div class="flex">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+</div>
+
+<h2>grid</h2>
+<div class="grid">
+    <div>BOX</div>
+    <div>BOX</div>
+    <div>BOX</div>
+    <div>BOX</div>
+    <div>BOX</div>
+    <div>BOX</div>
+</div>
+
+<h2>Responsive design</h2>
+  <p>use to change the style on small screens</p>
+  <div class="box">resize the window</div>
+
+<div class="screen-label" id="label">You are on a BIG screen </div>
+
+  <div class="cards">
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+  </div>
+
+  <script>
+    function checkScreen() {
+      var label = document.getElementById("label");
+      if (window.innerWidth <= 600) {
+        label.innerText = "You are on a SMALL screen ";
+      } else {
+        label.innerText = "You are on a BIG screen ";
+      }
+    }
+    window.addEventListener("resize", checkScreen);
+    checkScreen();
+  </script>

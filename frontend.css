@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    font-size: 20px;
+    background: rgb(0, 255, 234);
+    padding: 12px;
+}
+.card{
+    width:300px;
+    padding:200px;
+    border:2px solid black;
+    margin: 30px;
+    background-color:blue
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}  
+.grid{
+    display:grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    gap: 20px; 
+ }
+
+.card{
+    width:1000px;
+    padding:50px;
+    border:2px solid black;
+    margin:30px;
+    background-color:burlywood;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
